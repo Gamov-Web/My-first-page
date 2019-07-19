@@ -1,0 +1,177 @@
+﻿body{
+	font-family: Tahoma;
+}
+header{
+	background-color: #46155d;
+	height: 800px;
+}
+.clearfix:after{
+	content:'';
+	display:table;
+	width:100%;
+	clear:both;
+}
+div{
+	box-sizing: border-box;
+}
+.container{
+	width:940px
+	margin: 0 auto;
+}	
+.logo{
+		margin-top: 41px;
+		float:left;
+}
+.titles{
+	margin-top:35px;
+	float: left;
+}
+.titles_first{
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align:left;
+	margin:0;
+	
+}
+h1{
+	color: white;
+	font-size: 63px;
+	text-transform: uppercase;
+	text-align:left;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+h2{
+	color: white;
+	font-size: 38px;
+	text-transform: uppercase;
+	text-align:left;
+	margin:0;
+	font-weight:bold;
+}
+h3{
+	margin-top:85px;
+	color: #2e2c2c;
+	font-size:32px;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:center;
+}
+h4{
+	margin-top:19px;
+	color: #2e2c2c;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.list{
+	float: left;
+	margin-top:61px;
+	color:white;
+	font-size:30px;
+	line-height:50px;
+}
+li{
+	padding-left:17px;
+}
+.flex-container{
+	display: flex;
+}
+.flex-element{
+	text-align: center;
+}
+.block p{
+	line-height:1.6em;
+	margin-top:27px;
+}
+.block flex-container{
+	margin-top:51px;
+}
+.design{
+	float:right;
+	margin-right:135px;
+	margin-top: 70px;
+}
+.submit{
+	float: left;
+	margin-top:51px;
+	width:300px;
+	height:77px;
+	background-color:#ea6645;
+	border-color:#ea6645;
+	color:white;
+	border-radius:15px;
+	font-size:30px;
+	box-shadow:0 15px 29px rgba(0,0,0,0.2);
+}
+.arch{
+	height:463px;
+}
+.app{
+	height:544px;
+	background-color:#f1f1f1;
+}
+.app h3{
+	float:left;
+	text-align:left;
+}
+.app p:first:child{
+	float: left;
+}
+.app p:last-child{
+	float:left;
+	margin-top:16px;
+}
+.text{
+	width:314px;
+}
+.text button{
+	margin-top: 17px;
+	float:left;	
+}
+.hand{
+	float:right;
+	margin-top: 60px;
+	margin-right:200px;
+}
+footer{
+	background-color: #521954;
+	height: 159px;
+}
+.info{
+	float: left;
+	margin-top: 37px;
+}
+.picture{
+	float: left;
+}
+.info p{
+	font-size:14px;
+	color: #8a6f8b;
+	margin-top: 5px;
+	margin-left: 25px;
+    float: right;
+}
+.telefon{
+	float: right;
+	width: 247px;
+	margin-top: 52px;
+}
+.telefon p{
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	margin: 0;
+}
+.up{
+	float: left;
+	margin-left:250px;
+	margin-top: 72px;
+}
+.phone{
+	float: left;
+	margin-right: 14px;
+	margin-top: 7px;
+}
