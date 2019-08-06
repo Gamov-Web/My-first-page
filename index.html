@@ -1,97 +1,92 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<title>Вадим Гамов</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/main.css">
-	<style>
-     ul {
-     	margin: 0;
-        list-style-image: url(img/point.png);
-     }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Вадим Гамов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header id="header">
-	    <div class="container">
-	       <div class="heading clearfix">
-	         <img src="img/logo.png" alt="Вадим Гамов" class="logo">
-	       </div>
-	       <div class="titles" >
-	           <div class="titles_first">
-	             Создание
-	           </div>
-	           <h1>Landing page</h1>
-	           <h2>За 3 часа с гарантией</h2>
-	       </div>
-	       <img src="img/web-design.png" alt="Дизайн" class="design">
-	       <div class="list">
-	          <ul>
-	             <li>Прототипирование</li>
-	             <li>Дизайн сайтов</li>
-	             <li>Программирование</li>
-	         </ul>
-	       </div>
-	       <form>
-	         <button href="#" class="submit">Нанять меня!</button>
-	       </form>
-	    </div>
-	</header>
-	<section id="arch" class="arch">
-	  <div class="container">
-	     <h3>Преимущества работы со мной</h3>
-	      <div class="block flex-container">
-	        <div class="block__element flex-element">
-	         <img src="img/education.png" alt="Образование">
-	         <h4>Образование</h4>
-	         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-	        </div>
-	      <div class="block__element flex-element">
-	         <img src="img/speed.png" alt="Скорость">
-	         <h4>Скорость</h4>
-	         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-	      </div>
-	      <div class="block__element flex-element">
-	         <img src="img/man.png" alt="Ответственность">
-	         <h4>Ответственность</h4>
-	         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-	      </div>
-	      <div class="block__element flex-element">
-	         <img src="img/experience.png" alt="Опыт">
-	         <h4>Опыт</h4>
-	         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-	      </div>
-	      </div>
-	  </div>
-	</section>
-	<section id="app" class="app">
-      <div class="container">
-	     <h3>В подарок <br> приложение Ios</h3>
-	     <img src="img/iphone-hand.png" alt="ios" class="hand">
-	  <div class="text">
-	     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu.</p>
-         <p>Ut enim ad <b>minim veniam</b>, quis nos pariatualuptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
-         <form >
-	         <button href="#" class="submit">Нанять меня!</button>
-	     </form>
-	  </div>
-	  </div>
-	</section>
-    <footer>
-	 <div class="container">
-	 	<div class="info">
-	 	 <img href="#" src="img/info.png" alt="Логотип" class="picture">
-	 	 <p>2018 <br> Все права защищены <br> Вадим Гамов</p>
-	 	</div>
-	 	<a href="#header"><img src="img/up.png" class="up"></a>
-	 	<div class="telefon">
-	 		<img src="img/phone.png" class="phone">
-         <p>8 (495) 543-43-26</p>
-            <img src="img/phone.png" class="phone">
-         <p>8 (495) 543-43-26</p>
-	    </div>
-	 </div>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <div class="logo">ВГ</div>
+                        <div class="header__name">Вадим Гамов</div>
+                    </div>
+                    <h1 class="header__title">Создание<br><span class="title__large">Landing page</span><span class="title__medium"> за 3 часа с гарантией</span></h1>
+                    <ul class="header__list">
+                        <li class="header__li">Прототипирование</li>
+                        <li class="header__li">Дизайн сайтов</li>
+                        <li class="header__li">Верстка</li>
+                    </ul>
+                    <a class="button" href="#">Нанять меня</a>
+                </div>
+                <div class="header__image">
+                    <img src="img/header-main.png" alt="Web design">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="features">
+        <div class="container">
+            <div class="features__wrapper">
+                <h2 class="title-2 features__title">Преимущества работы со мной</h2>
+                <div class="row">
+                    <div class="row__item">
+                        <img src="img/feature-1.png" alt="Education">
+                        <h3 class="item-title">Образование</h3>
+                        <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+                    </div>
+                    <div class="row__item">
+                        <img src="img/feature-2.png" alt="Speed">
+                        <h3 class="item-title">Скорость</h3>
+                        <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+                    </div>
+                    <div class="row__item">
+                        <img src="img/feature-3.png" alt="Man">
+                        <h3 class="item-title">Ответственность</h3>
+                        <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+                    </div>
+                    <div class="row__item">
+                        <img src="img/feature-4.png" alt="Experience">
+                        <h3 class="item-title">Опыт</h3>
+                        <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="app">
+        <div class="container">
+            <div class="app__wrapper">
+                <div class="app__content">
+                    <h2 class="title-2 app__title">в подарок приложение ios</h2>
+                    <p class="app__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu.</p>
+                    <p class="app__text">Ut enim ad minim veniam, quis nos pariatualuptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                    <a class="button" href="#">Найми меня!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__info">
+                    <div class="logo footer__logo">ВГ</div>
+                    <p class="footer__copyright">2019<br>Все права защищены Вадим Гамов
+                    </p>
+                </div>
+                <a class="arrow-up" href="#header"></a>
+                <div class="footer__phones">
+                    <span class="footer__phone">8 (495) 543-43-26</span>
+                    <span class="footer__phone">8 (495) 543-43-26</span>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
