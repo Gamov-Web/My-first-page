@@ -270,3 +270,7 @@ h1, h2, h3, p {
     width: 19px;
     height: 19px;
 }
+
+@media (max-width: 1050px) {
+    
+}
